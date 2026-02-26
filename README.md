@@ -1,40 +1,82 @@
+🚀 CryptoTracker App
+📱 Description
 
-#CryptoTracker App
+CryptoTracker is a SwiftUI-based iOS application that fetches real-time cryptocurrency data from the CoinLore API. The app displays global market statistics, price movements, and interactive charts, while offering sorting, currency conversion, and animated UI elements to enhance the user experience.
 
-#Beskrivelse
-CryptoTracker er en SwiftUI-app som henter kryptovalutadata fra CoinLore API og viser markedsstatistikk, grafer og prisendringer. Den inkluderer interaktive funksjoner som sortering, valutakonvertering og animasjoner for å forbedre brukeropplevelsen.
+🛠 Built With
 
-## Versjoner
-###Prosjektet er utviklet og testet med
-- Xcode: 16.2
-- Swift: 6.0.3
+Xcode: 16.2
 
+Swift: 6.0.3
 
+SwiftUI
 
+Combine
 
-## Funksjoner
-- Henter globale markedsdata fra API-et CoinLore.
-- Viser kryptovalutaer i en liste med navn og pris.
-- Sortering av kryptovalutaer etter rangering, 1 time, 24 timer og 7 dager, både stigende og synkende.
-- Detaljert visning av en kryptovaluta med all relevant informasjon.
-- "Pull to refresh" for å hente oppdaterte data fra API-et.
-- Håndtering av nettverksfeil: Hvis brukeren starter appen uten nettverk, vises en feilmelding. Hvis tidligere hentede data finnes, vises disse, men markeres med rød farge for å indikere at de kan være utdaterte. Når nettverket kommer tilbake, og appen startes på nytt, lastes de nyeste dataene automatisk
-- Interaktiv statistikkfane som lar brukeren velge kryptovalutaer som vises i et diagramet.
-- Konvertering fra USD til NOK knapp for nulltille tilbake til USD.
-- Emoji-animasjon ved store kursendringer, Hvis brukeren skriver tallet 10, eller en kryptovaluta har en endring på over 10%, vises animasjonen.
-- Responsivt UI som tilpasser seg alle iPhone-størrelser.
+Swift Charts
 
+URLSession
 
+✨ Features
 
-### Kilder og referanser
- https://api.coinlore.net/api/global/
- https://api.coinlore.net/api/tickers/ 
- https://developer.apple.com/documentation/foundation/urlsession/processing_url_session_data_task_results_with_combine
- https://developer.apple.com/documentation/swiftui
- https://developer.apple.com/documentation/swiftui
- https://developer.apple.com/documentation/charts/
- https://stackoverflow.com/
- https://stackoverflow.com/questions/56493660/pull-down-to-refresh-data-in-swiftui
- ChatGPT – Brukt som en støtte for feilsøking, debugging og generelle programmeringsspørsmål i SwiftUI
+Fetches global cryptocurrency market data from the CoinLore API.
+
+Displays cryptocurrencies in a dynamic list with name and live price.
+
+Advanced sorting:
+
+By rank
+
+1-hour change
+
+24-hour change
+
+7-day change
+
+Ascending and descending order
+
+Detailed view for each cryptocurrency with extended market data.
+
+Pull-to-refresh to retrieve updated API data.
+
+Offline handling:
+
+Displays an error message if launched without internet.
+
+Shows previously fetched data if available.
+
+Outdated data is marked in red to indicate possible staleness.
+
+Automatically refreshes when the app restarts and network is restored.
+
+Interactive statistics tab with selectable cryptocurrencies displayed in charts.
+
+Currency conversion from USD to NOK with toggle functionality.
+
+Emoji animation for significant price changes:
+
+Triggered when the user enters “10”
+
+Or when a cryptocurrency changes by more than 10%
+
+Fully responsive UI that adapts to all iPhone screen sizes.
+
+🌍 API Endpoints
+
+https://api.coinlore.net/api/global/
+
+https://api.coinlore.net/api/tickers/
+
+📚 References
+
+Apple Developer Documentation – SwiftUI
+
+Apple Developer Documentation – Combine
+
+Apple Developer Documentation – Charts
+
+Stack Overflow (for specific implementation challenges)
+
+ChatGPT – Used for debugging support and general SwiftUI development guidance
 
 
