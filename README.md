@@ -1,5 +1,6 @@
 🚀 CryptoTracker App
-📱 Description
+
+📱 #Description
 
 CryptoTracker is a SwiftUI-based iOS application that fetches real-time cryptocurrency data from the CoinLore API. The app displays global market statistics, price movements, and interactive charts, while offering sorting, currency conversion, and animated UI elements to enhance the user experience.
 
